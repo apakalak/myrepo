@@ -23,10 +23,9 @@ def ParseResume(name):
 	                     dictFields[key] += line.lstrip("\n")
                     except UnboundLocalError:
                         pass
-        with open("outputFile.txt","w") as outputFile:
-	    for key in sorted(dictFields.iterkeys()):
-	        if dictFields[key]:
-	            print >>outputFile,  "'" + key + "'    : " + dictFields[key] + "\n"
+	for key in sorted(dictFields.iterkeys()):
+	    if dictFields[key] and isMainModule:
+	        print "'" + key.upper() + "'    - " + dictFields[key] + "\n"
         return True
     return False
 
@@ -49,4 +48,3 @@ if __name__ == '__main__':
     name = raw_input("Enter the resume file name with full file path: ")
     name = os.path.abspath(name)
     ParseResume(name)
-
