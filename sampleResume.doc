@@ -17,10 +17,7 @@ Projects Worked on : 	1. Metapps - It is a web portal to add/edit/view/download 
 			3. RCA Tracker - A web portal to track the root causes for the issues faced across during the development of an 			product. All the details will be saved in a central database and accessible by all.
 				Technologies used - Django 1.4, Python 2.7, MS SQL, Javascript, JQuery, HTML, CSS, Ajax.
 
-			4. StreamViewer - This tool analyzes DVB and MPEG streams. User can connect to a TS file or live stream through 
-			RF/tuning devices and see the structure of different DVB/MPEG tables and other carousels. 
-				Technologies used - .Net,SQLLite.
-
+			
 Academic projects: 	1. R Tree - Map Overlay Implementation (Final Sem Project) - R tree is a multidimensional data structure which is 				constructed for storing the different location in a map. The nearest neighbor search algorithm is used to search N 				nearest neighbors of a given query point.
 				Technolgies Used - C++
 
